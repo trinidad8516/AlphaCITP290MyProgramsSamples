@@ -1,3 +1,5 @@
+package FruitDemo2;
+
 
 public abstract class Fruit {
 	private static int count = 0;

@@ -1,3 +1,5 @@
+package FruitDemo2;
+
 public class Grape extends Fruit {
 
 	public Grape(String color) {

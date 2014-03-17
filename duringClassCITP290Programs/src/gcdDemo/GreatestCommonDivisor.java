@@ -1,3 +1,4 @@
+package gcdDemo;
 import java.util.Scanner;
 
 public class GreatestCommonDivisor {

@@ -1,3 +1,5 @@
+package PolymorphismDemo;
+
 public class Fish extends Animal implements Swimmer {
 
 	@Override

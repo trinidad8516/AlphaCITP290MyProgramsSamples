@@ -1,3 +1,5 @@
+package PolymorphismDemo;
+
 
 public class Rabbit extends Animal implements Runner, Jumper {
 
