@@ -26,9 +26,9 @@ public class SalesDisplayController {
 	// The IDE may warn that this is unused. For phase 1 we don't actually
 	// care who is logged in. However, in phase 2 we will need to determine
 	// management access.
+	
 	@SuppressWarnings("unused")
 	private Employee emp;
-
 	private Product[] invoice;
 	private Payment[] payments;
 
@@ -97,7 +97,9 @@ public class SalesDisplayController {
 				else if (choice.equals("4")) {
 					exit = true;
 					sc.close();
-				} else if (choice.equals("5")) {
+				} 
+				//add employee
+				else if (choice.equals("5")) {
 					if (emp.getAccessLevel().equals(Employee.MANAGER_LEVEL)
 							|| emp.getAccessLevel()
 									.equals(Employee.ADMIN_LEVEL)) {
